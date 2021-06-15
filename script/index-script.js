@@ -23,18 +23,18 @@ function activeAudio(nA) {
         e[i].style.backgroundColor = "#ffffff"
         e[i].style.color = "#323130"
     }
-    e [nA] .style.backgroundColor = "#0078d4";
+    e [nA] .style.backgroundColor = "#323130";
     e [nA] .style.color = "#ffffff";
 }
 function activeVideo(nV) {
     var i, e;
     e = document.getElementsByClassName("container-tabs__tab");
     for (i = 0; i < e.length; i++) {
-        e[i].style.backgroundColor = "#323130"
-        e[i].style.color = "#ffffff"
+        e [i] .style.backgroundColor = "#ffffff";
+        e[i].style.color = "#323130"
     }
-    e [nV] .style.backgroundColor = "#ffffff";
-    e [nV] .style.color = "#323130";
+    e [nV] .style.backgroundColor = "#323130";
+    e [nV] .style.color = "#ffffff";
 }
 window.onload = function () {
     document.getElementById('defaultOpen').click();
